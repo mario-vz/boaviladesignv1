@@ -246,7 +246,7 @@ function App() {
       <footer className="bg-white border-t border-gray-100 py-8 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-600 font-light mb-2">
-            © {new Date().getFullYear()} Boa Vila Design
+            © {2023} Boa Vila Design
           </p>
           <a
             href="#"
