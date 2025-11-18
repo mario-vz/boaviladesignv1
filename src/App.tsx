@@ -16,9 +16,16 @@ function App() {
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-2xl font-light tracking-wide text-gray-800">
+        <div className="flex items-center gap-3">
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="h-10 w-10 object-contain rounded-full"
+          />
+          <span className="text-2xl font-light tracking-wide text-gray-800">
             BOA VILA DESIGN
-          </div>
+          </span>
+        </div>
 
           <button
             className="md:hidden p-2"
