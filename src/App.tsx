@@ -198,7 +198,9 @@ function App() {
                   className="w-full h-full object-cover"
                 />
               </div>
-
+            </div>
+              
+                
               <div className="md:w-2/3">
                 <p className="text-lg text-gray-700 leading-relaxed font-light mb-6">
                   Boa Vila Design nace del amor por la artesanía gallega. Cada pieza está hecha a mano con dedicación y materiales cuidadosamente seleccionados.
