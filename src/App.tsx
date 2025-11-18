@@ -191,9 +191,12 @@ function App() {
 
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/3">
-                <div className="aspect-square bg-stone-50 rounded-lg flex items-center justify-center">
-                  <p className="text-gray-400 text-sm text-center px-4">[ SUBIR FOTO: Tu foto personal ]</p>
-                </div>
+               <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
+                <img
+                  src="/olg.png"
+                  alt="Foto personal"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <div className="md:w-2/3">
