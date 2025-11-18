@@ -92,8 +92,12 @@ function App() {
         <section id="inicio" className="min-h-screen flex items-center justify-center px-6 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-12">
-              <div className="w-32 h-32 mx-auto mb-8 bg-emerald-400 rounded-full flex items-center justify-center">
-                <span className="text-white text-4xl font-light">BVD</span>
+              <div className="w-40 h-40 mx-auto mb-8 flex items-center justify-center">
+                <img
+                  src="/logo.png"
+                  alt="Logo"
+                  className="w-full h-full object-contain rounded-full"
+                />
               </div>
             </div>
 
