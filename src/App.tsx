@@ -196,9 +196,9 @@ function App() {
                   src="/olg.png"
                   alt="Foto personal"
                   className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+               />
+             </div>
+          </div>
               
                 
               <div className="md:w-2/3">
