@@ -184,33 +184,34 @@ function App() {
         </section>
 
         <section id="sobre-mi" className="py-20 px-6">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-light text-gray-800 text-center mb-16">
-              Sobre mí
-            </h2>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-4xl font-light text-gray-800 text-center mb-16">
+      Sobre mí
+    </h2>
 
-            <div className="flex flex-col md:flex-row gap-12 items-center">
-              <div className="md:w-1/3">
-               <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src="/olg.png"
-                  alt="Foto personal"
-                  className="w-full h-full object-cover"
-                 />
-               </div>
-              </div>
-                       
-              <div className="md:w-2/3">
-                <p className="text-lg text-gray-700 leading-relaxed font-light mb-6">
-                  Boa Vila Design nace del amor por la artesanía gallega. Cada pieza está hecha a mano con dedicación y materiales cuidadosamente seleccionados.
-                </p>
-                <p className="text-lg text-gray-700 leading-relaxed font-light">
-                  Diseño único, cuidado y con historia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+    <div className="flex flex-col md:flex-row gap-12 items-center">
+      <div className="md:w-1/3">
+        <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="/olg.png"
+            alt="Foto personal"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      <div className="md:w-2/3">
+        <p className="text-lg text-gray-700 leading-relaxed font-light mb-6">
+          Boa Vila Design nace del amor por la artesanía gallega. Cada pieza está hecha a mano con dedicación y materiales cuidadosamente seleccionados.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed font-light">
+          Diseño único, cuidado y con historia.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         <section id="contacto" className="py-20 px-6 bg-stone-50">
           <div className="max-w-2xl mx-auto text-center">
