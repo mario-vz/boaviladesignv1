@@ -99,7 +99,7 @@ function App() {
         <section id="inicio" className="min-h-screen flex items-center justify-center px-6 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-12">
-              <div className="w-40 h-40 mx-auto mb-8 flex items-center justify-center">
+              <div className="w-64 h-64 mx-auto mb-6 flex items-center justify-center">
                 <img
                   src="/logo.png"
                   alt="Logo"
