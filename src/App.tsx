@@ -17,13 +17,6 @@ function App() {
   }
 ];
 
-<ThreeDCarousel 
-  items={items}
-  autoRotate={true}
-  rotateInterval={4000}
-  cardHeight={500}
-/>
-
   return (
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-100">
