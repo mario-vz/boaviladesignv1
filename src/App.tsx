@@ -1,9 +1,29 @@
+import ThreeDCarousel, { ThreeDCarouselItem } from "@/components/ThreeDCarousel";
 import { Instagram, Mail, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const items: ThreeDCarouselItem[] = [
+  {
+    id: 1,
+    title: "6th SENSE Safety System",
+    brand: "FireCat Group",
+    description: "AI-driven smart uniform tech for law enforcement, military & firefighters.",
+    tags: ["Safety", "Military", "AI Sensors", "Monitoring"],
+    imageUrl: "/img/firecat.jpg",
+    link: "/projects/firecat"
+  }
+];
+
+<ThreeDCarousel 
+  items={items}
+  autoRotate={true}
+  rotateInterval={4000}
+  cardHeight={500}
+/>
+  
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
