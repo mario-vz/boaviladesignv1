@@ -23,14 +23,6 @@ function App() {
   rotateInterval={4000}
   cardHeight={500}
 />
-  
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-white">
